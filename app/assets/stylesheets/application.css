@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.pagination a {
+  color: blue;
+  opacity: 0.75;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}

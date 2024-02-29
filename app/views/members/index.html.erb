@@ -8,7 +8,15 @@
     <%= link_to "New member", new_member_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
   </div>
 
+  <div class="my-3">
+    <%= paginate @members %>
+  </div>
+
   <div id="members" class="min-w-full">
     <%= render @members %>
+  </div>
+
+  <div class="my-3">
+    <%= paginate @members %>
   </div>
 </div>
