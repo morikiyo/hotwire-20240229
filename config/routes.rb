@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resource :dashboard, only: [:show]
   resources :members
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
